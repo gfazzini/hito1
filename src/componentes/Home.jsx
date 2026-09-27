@@ -31,7 +31,7 @@ function Home() {
             "provolone"
           ]}
         />
-
+        
         <Cardpizza
           name="Pepperoni"
           img="https://images.unsplash.com/photo-1628840042765-356cda07504e"

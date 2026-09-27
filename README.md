@@ -1,17 +1,38 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Aplicación web:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Navbar de navegación.
+- Header con imagen de fondo.
+- Tarjetas de pizzas.
+- Información de ingredientes.
+- Precio de cada pizza.
+- Footer con derechos reservados.
 
-## React Compiler
+Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- Bootstrap 5
+- CSS
 
-## Expanding the ESLint configuration
+Estructura de componentes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# hito1
+src/
+│
+├── componentes/
+│ ├── Navbar.jsx
+│ ├── Header.jsx
+│ ├── Cardpizza.jsx
+│ ├── Home.jsx
+│ └── Footer.jsx
+│
+├── assets/
+│ ├── hero.png
+│ └── pexels-amar-12032525.jpg
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
