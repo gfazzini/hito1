@@ -5,6 +5,3 @@ export default defineConfig({
   plugins: [react()],
   base: '/hito1/',
 })
-
-base: '/hito1/'
-
